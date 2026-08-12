@@ -1,4 +1,16 @@
 
+class Employee {
+
+    
+        int id;
+        String name;
+
+        void work() {
+        System.out.println("working");
+        }
+}
+
+
 class EmpApplication {
 
     public static void main(String[] args) {
@@ -20,15 +32,5 @@ class EmpApplication {
         System.out.println(e1.id);
         System.out.println(e1.name);
 
-    }
-}
-
-class Employee {
-
-    int id;
-    String name;
-
-    void work() {
-        System.out.println("working");
     }
 }
